@@ -1,0 +1,21 @@
+{
+  "name": "googleclone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "npm-build-zip": "^1.0.3",
+    "postcss": "^8.4.21",
+    "sass": "^1.50.0",
+    "postcss-cli": "^10.1.0"
+  },
+  "scripts": {
+    "compile:scss": "sass --watch --no-source-map assets/scss:assets/css --style expanded",
+    "compress:scss": "sass --watch --no-source-map assets/css/styles.css:assets/css/styles.min.css --style compressed",
+    "build": "npm-build-zip --source=./ --destination=build/",
+    "start": "npm run compile:scss & npm run compress:scss"
+  }
+}

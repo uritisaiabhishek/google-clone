@@ -1,0 +1,123 @@
+.homepage {
+  text-align: center;
+}
+.homepage .header-menu {
+  list-style-type: none;
+  overflow: hidden;
+}
+.homepage .header-menu li {
+  float: right;
+}
+.homepage .header-menu li a {
+  color: #000;
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.homepage .header-menu li a:hover {
+  text-decoration: underline;
+}
+.homepage .header-menu .signbutton {
+  background-color: #4885ed;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 7px 10px;
+  position: relative;
+  bottom: 7px;
+  font-weight: bold;
+}
+.homepage .header-menu .grid {
+  height: 23px;
+  position: relative;
+  bottom: 4px;
+}
+.homepage .logo {
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+.homepage .bar {
+  margin: 0 auto;
+  width: 575px;
+  border-radius: 30px;
+  border: 1px solid #dcdcdc;
+}
+.homepage .bar:hover {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.homepage .bar:focus-within {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline: none;
+}
+.homepage .bar .searchbar {
+  height: 45px;
+  border: none;
+  width: 500px;
+  font-size: 16px;
+  outline: none;
+}
+.homepage .voice {
+  height: 20px;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+.homepage .buttons {
+  margin-top: 30px;
+}
+.homepage .buttons .button {
+  background-color: #f5f5f5;
+  border: none;
+  color: #707070;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 4px;
+  outline: none;
+}
+.homepage .buttons .button:hover {
+  border: 1px solid #c8c8c8;
+  padding: 9px 19px;
+  color: #808080;
+}
+.homepage .buttons .button:focus {
+  border: 1px solid #4885ed;
+  padding: 9px 19px;
+}
+
+.results-page .header-menu {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: red;
+}
+.results-page .header-menu li {
+  float: right;
+}
+.results-page .header-menu li a {
+  color: #000;
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.results-page .header-menu li a:hover {
+  text-decoration: underline;
+}
+.results-page .header-menu .signbutton {
+  background-color: #4885ed;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 7px 10px;
+  position: relative;
+  bottom: 7px;
+  font-weight: bold;
+}
+.results-page .header-menu .grid {
+  height: 23px;
+  position: relative;
+  bottom: 4px;
+}/*# sourceMappingURL=style.css.map */
